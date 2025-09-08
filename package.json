@@ -1,0 +1,16 @@
+{
+    "name": "pokemon-app",
+    "displayName": "pokemon-app",
+    "description": "A simple Pokemon app built with React and TypeScript.",
+    "version": "1.0.0",
+    "main": "pokemon.js",
+    "scripts": {
+        "start": "http-server -p 8080",
+        "dev": "live-server --port=8080"
+    },
+    "devDependencies": {
+        "eslint": "^9.35.0",
+        "http-server": "^14.1.1",
+        "live-server": "^1.2.2"
+    }
+}

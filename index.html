@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PokemonClub</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="pokemon.js"></script>
+</head>
+<body> 
+    <header>
+        <h1>Welcome to the Pokemon Club</h1>
+
+    </header>
+    <main>
+        <section id = "filtres">
+
+        <input type="text" id="search" placeholder="Search Pokemon..."><br>
+        <p id ="type-filtres">
+            Type :<br>
+            <input type="checkbox" name="fire" id="fire"> <label for="fire">Fire</label><br>
+            <input type="checkbox" name="water" id="water"> <label for="water">Water</label><br>
+            <input type="checkbox" name="poison" id="poison"> <label for="poison">Poison</label><br>
+            <input type="checkbox" name="electric" id="electric"> <label for="electric">Electric</label><br>
+            <input type="checkbox" name="grass" id="grass"> <label for="grass">Grass</label><br>
+            <input type="checkbox" name="flying" id="flying"> <label for="flying">Flying</label><br>
+            <input type="checkbox" name="bug" id="bug"> <label for="bug">Bug</label><br>
+            <input type="checkbox" name="normal" id="normal"> <label for="normal">Normal</label><br>
+            <input type="checkbox" name="fairy" id="fairy"> <label for="fairy">Fairy</label><br>
+            <input type="checkbox" name="fighting" id="fighting"> <label for="fighting">Fighting</label><br>
+            <input type="checkbox" name="psychic" id="psychic"> <label for="psychic">Psychic</label><br>
+            <input type="checkbox" name="rock" id="rock"> <label for="rock">Rock</label><br>
+            <input type="checkbox" name="ground" id="ground"> <label for="ground">Ground</label><br>
+            <input type="checkbox" name="ghost" id="ghost"> <label for="ghost">Ghost</label><br>
+            <input type="checkbox" name="ice" id="ice"> <label for="ice">Ice</label><br>
+            <input type="checkbox" name="dragon" id="dragon"> <label for="dragon">Dragon</label><br>
+            <input type="checkbox" name="steel" id="steel"> <label for="steel">Steel</label><br>
+
+
+        </p>
+        <button id ="filtrer">Filtrer</button><br>
+        <button id ="trier-crois">A-Z</button>
+        <button id ="trier-decrois">Z-A</button><br>
+        <button id ="reset">Reset</button>
+        </section>
+        <section id="pokemon-list">
+            <!-- Pokemon cards will be dynamically inserted here -->
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Pokemon Club</p>
+    </footer>
+</html>
